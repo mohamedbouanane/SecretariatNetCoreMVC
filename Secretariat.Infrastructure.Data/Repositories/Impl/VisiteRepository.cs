@@ -4,10 +4,9 @@ using Secretariat.Infra.Domain.Models;
 
 namespace Secretariat.Infra.Data.Repositories.Impl
 {
-    public class AgendaRepository : Repository<int, AgendaEntity>, IAgendaRepository
+    public class VisiteRepository : Repository<long, VisiteEntity>, IVisiteRepository
     {
-        public AgendaRepository(DbContext context) : base(context) { }
-
+        public VisiteRepository(DbContext context) : base(context) { }
 
     }
 }

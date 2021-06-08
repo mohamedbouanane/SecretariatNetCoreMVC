@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Secretariat.Infra.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Secretariat.Infra.Domain.Models;
 
 namespace Secretariat.Infra.Data.Context
 {
@@ -64,7 +61,7 @@ namespace Secretariat.Infra.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Data Source = DESKTOP-5SSJU0Q; Initial Catalog = BibliothèqueUniversitaire; Integrated Security = True";
+            string connectionString = "Data Source = DESKTOP-5SSJU0Q; Initial Catalog = Secretatiat; Integrated Security = True";
 
             //optionsBuilder.UseSqlServer(connectionString);
             //base.OnConfiguring(optionsBuilder);

@@ -7,8 +7,6 @@ namespace Secretariat.App.Services.Impl
 {
     public abstract class Service<TKey, TEntity, TRepository> : IService<TKey, TEntity> where TEntity : class where TRepository : IRepository<TKey, TEntity>
     {
-        // to do later : convertir les entités en DTO
-
         protected virtual TRepository _repository { get; set; }
 
         public Service(TRepository repository)
