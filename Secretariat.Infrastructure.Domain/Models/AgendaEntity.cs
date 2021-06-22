@@ -7,7 +7,7 @@ namespace Secretariat.Infra.Domain.Models
     {
         public int IdAgenda { get; set; }
         public string Login { get; set; }
-        public int MotdePass { get; set; }
+        public string MotdePass { get; set; }
 
         public virtual ICollection<EvenementEntity> Evenements { get; set; }
 

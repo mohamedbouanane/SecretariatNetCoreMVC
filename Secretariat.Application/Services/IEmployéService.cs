@@ -1,7 +1,7 @@
 ﻿
 using Secretariat.Infra.Domain.Models;
 
-namespace Secretariat.App.Services
+namespace Secretariat.Presentation.Services
 {
     public interface IEmployéService : IService<long, EmployéEntity>
     {

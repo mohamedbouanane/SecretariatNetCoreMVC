@@ -1,6 +1,6 @@
 using System;
 
-namespace Secretariat.App.Models
+namespace Secretariat.Presentation.Models
 {
     public class ErrorViewModel
     {

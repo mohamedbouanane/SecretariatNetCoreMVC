@@ -5,9 +5,9 @@ using Secretariat.Infra.Domain.Models;
 
 namespace Secretariat.Infra.Data.Repositories.Impl
 {
-    public class PersonneRepository : Repository<long, PersonneEntity>, IPersonneRepository
+    public class RéunionRepository : Repository<long, RéunionEntity>, IRéunionRepository
     {
-        public PersonneRepository(DbContext context) : base(context) { }
+        public RéunionRepository(DbContext context) : base(context) { }
 
     }
 }

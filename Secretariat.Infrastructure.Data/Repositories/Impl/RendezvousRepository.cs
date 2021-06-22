@@ -1,4 +1,5 @@
-﻿using DynamicRepository.EFCore;
+﻿
+using DynamicRepository.EFCore;
 using Microsoft.EntityFrameworkCore;
 using Secretariat.Infra.Domain.Models;
 
